@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mnemo</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Mnemo">
+	<meta name="author" content="Flanja Cosmin-Mihai">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="welcomepage.css">
+	<link rel="stylesheet" href="appstyles.css">
+</head>
+
+<body>
+
+<div id="welcomeWrapper">
+	<input type="radio" id="static_Series" name="series_Type" value="Static Series">
+	<label for="static_Series">Static Series</label>
+	<input type="radio" id="dynamic_Series" name="series_Type" value="Dynamic Series">
+	<label for="dynamic_Series">Dynamic Series</label>
+	<br>
+	<button type="button" class="loginbutton" id="log_button" onclick="LogMeIn()">I want to access the game.</button><br>
+
+</div>
+
+
+<div id="buttonsWrapper">
+
+<div id="CoolButtons">
+
+	<button type="button" class="gamebutton" id="Red" onclick="RedButtonPressed()"></button>
+
+	<button type="button" class="gamebutton" id="Yellow" onclick="YellowButtonPressed()"></button>
+
+	<button type="button" class="gamebutton" id="Green" onclick="GreenButtonPressed()"></button>
+
+	<button type="button" class="gamebutton" id="Blue" onclick="BlueButtonPressed()"></button>
+
+</div>
+
+<div id="Menu">
+
+<div id="responseButtonWrapper">
+	<button type="button" id="response_button" onclick="displayResponseButtons()" style="font-size:3vmin">I want to respond!</button>
+</div>
+
+<div id="CoolResponseButtons">
+
+	<button type="button" class="responsebutton" id="r_red" onclick="RedResponsePressed()"></button>
+
+	<button type="button" class="responsebutton" id="r_yellow" onclick="YellowResponsePressed()"></button>
+
+	<button type="button" class="responsebutton" id="r_green" onclick="GreenResponsePressed()"></button>
+
+	<button type="button" class="responsebutton" id="r_blue" onclick="BlueResponsePressed()"></button>
+
+</div>
+
+
+
+<input type="button" id="startSeries" value="Start" onclick="startAColorSeries()" style="font-size:5vmin;width: fit-content;" >
+
+
+
+
+<div id="GameStats">
+
+	Press the "Start" button to begin the game.
+	<br>
+	Mistakes:0
+	<br>
+
+</div>
+<button type="button"  id="quitbutton" onclick="iquit()" style="font-size:2vmin">I quit.</button>
+
+</div>
+
+</div> <!-- end of buttonsWrapper	-->
+
+<audio id="redAudio">
+  <source src="button1short.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="yellowAudio">
+  <source src="button2short.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="blueAudio">
+  <source src="button3short.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="greenAudio">
+  <source src="button4short.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="responseAudio">
+  <source src="responseButton.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+body 
+	{
+		background-color: #1a1a1a;
+		max-height:90vmin;
+		max-width:90vmin;
+		min-height:90vmin;
+		min-width:90vmin;
+		color:white;
+		font-size:10vmin;
+		overflow:hidden;
+	}
+	
+	#buttonsWrapper /* Element which contains the entire memory game   */
+	{
+		display:none;
+	}
+
+	
+	#CoolButtons
+	{
+		min-height:50vmin;
+		min-width:50vmin;
+		max-height:50vmin;
+		max-width:50vmin;
+		position:absolute;
+		transform:translate(30%,10%);
+		left:30%;
+		display:grid;
+		grid-template: 1fr 1fr / 1fr 1fr;
+		grid-column-gap:3vmin;
+		grid-row-gap:1vmin;
+		padding:5px;
+	}
+	
+	#Menu
+	{
+		position:absolute;
+		transform:translate(10%,50%);
+		top:50%;
+		min-width:80vw;
+		max-width:80vw;
+		min-height:30vmin;
+		max-height:30vmin;
+	}
+	
+	#CoolResponseButtons
+	{
+	max-width:22vmin;
+	min-width:22vmin;
+	min-height:22vmin;
+	max-height:22vmin;
+	grid-template:1fr 1fr / 1fr 1fr;
+	grid-gap:1.5vmin;
+	grid-row-gap:1.5vmin;
+	padding:2px;
+	float:right;
+	display:none;
+	}
+	
+	#responseButtonWrapper
+	{
+	max-width:12vmin;
+	min-width:12vmin;
+	min-height:12vmin;
+	max-height:12vmin;
+	float:right;
+	display:none;
+	}
+	
+	.gamebutton
+	{
+	min-width:20vmin;
+	max-width:20vmin;
+	max-height:20vmin;
+	min-height:20vmin;
+	padding:0.2vmin;
+	border:5px solid black;
+	
+	}
+	
+	.responsebutton
+	{
+	min-width:10vmin;
+	max-width:10vmin;
+	max-height:10vmin;
+	min-height:10vmin;
+	color:white;
+	border:1px solid black;
+	}
+	
+	#Red
+	{
+	background-color: #660000;
+	}
+	
+	#Blue
+	{
+	background-color:#000066;
+	}
+	
+	#Yellow
+	{
+	background-color:#666600;
+	}
+	
+	#Green
+	{
+	background-color:#006600;
+	}
+	
+	#r_red
+	{
+	background-color: #660000;
+	}
+	
+	#r_blue
+	{
+	background-color:#000066;
+	}
+	
+	#r_yellow
+	{
+	background-color:#666600;
+	}
+	
+	#r_green
+	{
+	background-color:#006600;
+	}
+	
+	#startSeries
+	{
+	width:5vmin;
+	padding:0px;
+	}
+	
+	#seriesNumber
+	{
+	width:3vmin;	
+	padding:0px;
+	text-align:center;
+	}
+	#seriesNumberLabel
+	{
+	width:5vmin;	
+	padding:0px;
+	}
+	
+	.seriesNumberLabel
+	{
+	width:5vmin;	
+	padding:0px;
+	font-size:1vmin;
+	}
+	
+	#GameStats
+	{
+	font-size:3vmin;
+	}
+	
+	#finaldiv
+	{
+	min-width:90vmin;
+	min-height:90vmin;
+	left:10%;
+	position:absolute;
+	font-size:8vmin;
+	}
+	

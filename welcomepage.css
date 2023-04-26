@@ -1,0 +1,41 @@
+	#welcomeWrapper /* Element which contains a welcome page,
+					where the user can choose their name
+					and other start states can be set*/
+	{
+		background-color:#3432a8;
+		padding:0.5vmin;
+		font-size:5vmin;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size:3vmin;
+		width:fit-content;
+	}
+	
+	#log_button
+	{
+		position: relative; 
+		left: 50%;
+		transform: translateX(-50%);
+		font-size:3vmin;
+	}
+	#static_Series
+	{
+		font-size: 22px;
+		cursor:pointer;
+		min-width:3vmin;
+		min-height:3vmin;
+		border: 0px;
+		
+	}
+	#dynamic_Series
+	{
+		font-size: 22px;
+		cursor:pointer;
+		min-width:3vmin;
+		min-height:3vmin;
+		 border: 0px;
+	}
+	
